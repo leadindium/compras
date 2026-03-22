@@ -144,6 +144,16 @@ export function useLista(hogarId) {
     await crearLista()
   }, [hogarId, listaActiva?.id, items, crearLista])
 
+  const limpiarLista = useCallback(async () => {
+    if (!hogarId || !listaActiva?.id || items.length === 0) return
+    const { getDocs } = await import('firebase/firestore')
+    const itemsRef = collection(db, `hogares/${hogarId}/listas/${listaActiva.id}/items`)
+    const snapshot = await getDocs(itemsRef)
+    const batch = (await import('firebase/firestore')).writeBatch(db)
+    snapshot.docs.forEach(d => batch.delete(d.ref))
+    await batch.commit()
+  }, [hogarId, listaActiva?.id, items])
+
   return {
     listaActiva,
     items,
@@ -156,6 +166,7 @@ export function useLista(hogarId) {
     actualizarCostoReal,
     completarLista,
     seleccionarSucursal,
-    archivarYCrearNueva
+    archivarYCrearNueva,
+    limpiarLista
   }
 }

@@ -9,7 +9,7 @@ import SucursalSelector from './SucursalSelector'
 import AgregarItem from './AgregarItem'
 
 export default function ListaActiva({ hogarId, alias }) {
-  const { listaActiva, items, loading, crearLista, agregarItem, toggleComprado, actualizarCantidad, eliminarItem, actualizarCostoReal, completarLista, seleccionarSucursal, archivarYCrearNueva } = useLista(hogarId)
+  const { listaActiva, items, loading, crearLista, agregarItem, toggleComprado, actualizarCantidad, eliminarItem, actualizarCostoReal, completarLista, seleccionarSucursal, archivarYCrearNueva, limpiarLista } = useLista(hogarId)
   const catalogo = useCatalogo(hogarId)
   const { data: categorias } = useCollection(hogarId ? `hogares/${hogarId}/categorias` : null)
   const { data: sucursales } = useCollection(hogarId ? `hogares/${hogarId}/sucursales` : null)
@@ -107,10 +107,19 @@ export default function ListaActiva({ hogarId, alias }) {
               <span className="text-base">📋</span>
               Listas anteriores
             </button>
+            {items.length > 0 && (
+              <button
+                onClick={() => { limpiarLista(); setMostrarMenu(false) }}
+                className="w-full text-left px-4 py-3 text-sm text-red-500 active:bg-gray-50 flex items-center gap-3 border-t border-gray-100"
+              >
+                <span className="text-base">🗑️</span>
+                Limpiar lista
+              </button>
+            )}
             {comprados > 0 && (
               <button
                 onClick={() => { completarLista(); setMostrarMenu(false) }}
-                className="w-full text-left px-4 py-3 text-sm text-emerald-600 active:bg-gray-50 flex items-center gap-3 border-t border-gray-100"
+                className="w-full text-left px-4 py-3 text-sm text-emerald-600 active:bg-gray-50 flex items-center gap-3"
               >
                 <span className="text-base">✅</span>
                 Completar lista
