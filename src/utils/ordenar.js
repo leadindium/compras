@@ -55,7 +55,9 @@ export function agruparPorCategoria(items, categorias, sucursalId) {
       ...grupo,
       items: grupo.items.sort((a, b) => {
         if (a.comprado !== b.comprado) return a.comprado ? 1 : -1
-        return 0
+        const nameA = (a.nombreCorto || a.nombre || '').toLowerCase()
+        const nameB = (b.nombreCorto || b.nombre || '').toLowerCase()
+        return nameA.localeCompare(nameB, 'es')
       })
     }))
 }
