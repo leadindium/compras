@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { CATEGORIAS_DEFAULT } from '../../utils/categorizar'
 
-export default function NuevoProducto({ categorias, onCrear, onCancel, verificarDuplicado }) {
-  const [nombre, setNombre] = useState('')
+export default function NuevoProducto({ categorias, onCrear, onCancel, verificarDuplicado, nombreInicial = '' }) {
+  const [nombre, setNombre] = useState(nombreInicial)
   const [categoriaId, setCategoriaId] = useState('')
   const [duplicado, setDuplicado] = useState(null)
 
