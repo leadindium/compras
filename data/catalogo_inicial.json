@@ -1,0 +1,1938 @@
+[
+  {
+    "nombre": "Atun Filete Aceite Vegetales Sardimar",
+    "nombreCorto": "Atún filete Sardimar 295g",
+    "categoriaId": "enlatados",
+    "unidadTipo": "lata",
+    "unidadDetalle": "295 g",
+    "cantidadDefault": 1,
+    "frecuencia": 6,
+    "ultimoPrecio": 2280,
+    "precioMin": 2280,
+    "precioMax": 2280,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 2280
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 2280
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 2280
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 2280
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 2280
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 2280
+      }
+    ]
+  },
+  {
+    "nombre": "Chile Dulce Auto Mercado Unid",
+    "nombreCorto": "Chile dulce",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "N/A",
+    "unidadDetalle": "Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 6,
+    "ultimoPrecio": 950,
+    "precioMin": 850,
+    "precioMax": 950,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 850
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 850
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 900
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 950
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 950
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 950
+      }
+    ]
+  },
+  {
+    "nombre": "Filet De Pechuga De Pollo Deshuesado Sin Piel 2 Unidades Auto Mercado",
+    "nombreCorto": "Pechuga de pollo",
+    "categoriaId": "carnes",
+    "unidadTipo": "kilogramo",
+    "unidadDetalle": "kg",
+    "cantidadDefault": 1,
+    "frecuencia": 5,
+    "ultimoPrecio": 8635,
+    "precioMin": 8635,
+    "precioMax": 8635,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 8635
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 8635
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 8635
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 8635
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 8635
+      }
+    ]
+  },
+  {
+    "nombre": "Tomate Auto Mercado",
+    "nombreCorto": "Tomate",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "granel",
+    "unidadDetalle": "Kg",
+    "cantidadDefault": 1,
+    "frecuencia": 5,
+    "ultimoPrecio": 2400,
+    "precioMin": 1990,
+    "precioMax": 2400,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1990
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 1990
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 1990
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 2300
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 2400
+      }
+    ]
+  },
+  {
+    "nombre": "Manzana Granny Importada Auto Mercado",
+    "nombreCorto": "Manzana Granny",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "granel",
+    "unidadDetalle": "Kg",
+    "cantidadDefault": 1,
+    "frecuencia": 5,
+    "ultimoPrecio": 2950,
+    "precioMin": 2950,
+    "precioMax": 2950,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 2950
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 2950
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 2950
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 2950
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 2950
+      }
+    ]
+  },
+  {
+    "nombre": "Zanahoria Auto Mercado",
+    "nombreCorto": "Zanahoria",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "granel",
+    "unidadDetalle": "Kg",
+    "cantidadDefault": 1,
+    "frecuencia": 5,
+    "ultimoPrecio": 900,
+    "precioMin": 750,
+    "precioMax": 900,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 750
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 780
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 850
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 900
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 900
+      }
+    ]
+  },
+  {
+    "nombre": "Bebida Te Liquido Kombucha Golden Hour Kombucha Culture Lata 355 Ml",
+    "nombreCorto": "Kombucha Golden Hour",
+    "categoriaId": "bebidas",
+    "unidadTipo": "lata",
+    "unidadDetalle": "355 mL",
+    "cantidadDefault": 1,
+    "frecuencia": 5,
+    "ultimoPrecio": 1780,
+    "precioMin": 1780,
+    "precioMax": 1780,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1780
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 1780
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 1780
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 1780
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 1780
+      }
+    ]
+  },
+  {
+    "nombre": "Bebida Te Liquido Kombucha Boho Kombucha Culture Lata 355 Ml",
+    "nombreCorto": "Kombucha Boho",
+    "categoriaId": "bebidas",
+    "unidadTipo": "lata",
+    "unidadDetalle": "355 mL",
+    "cantidadDefault": 1,
+    "frecuencia": 5,
+    "ultimoPrecio": 1780,
+    "precioMin": 1780,
+    "precioMax": 1780,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1780
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 1780
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 1780
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 1780
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 1780
+      }
+    ]
+  },
+  {
+    "nombre": "Aguacate Hass Mexicano Auto Mercado",
+    "nombreCorto": "Aguacate Hass",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "granel",
+    "unidadDetalle": "kg",
+    "cantidadDefault": 1,
+    "frecuencia": 5,
+    "ultimoPrecio": 4740,
+    "precioMin": 3285,
+    "precioMax": 4740,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 3285
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 4380
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 4380
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 4380
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 4740
+      }
+    ]
+  },
+  {
+    "nombre": "Papa Auto Mercado",
+    "nombreCorto": "Papa",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "granel",
+    "unidadDetalle": "Kg",
+    "cantidadDefault": 1,
+    "frecuencia": 5,
+    "ultimoPrecio": 2700,
+    "precioMin": 2450,
+    "precioMax": 2700,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 2450
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 2450
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 2550
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 2700
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 2700
+      }
+    ]
+  },
+  {
+    "nombre": "Malanga Tostada Soldanza Paquete 135 G",
+    "nombreCorto": "Malanga tostada Soldanza",
+    "categoriaId": "snacks",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "135 g",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 1495,
+    "precioMin": 1495,
+    "precioMax": 1495,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1495
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 1495
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 1495
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 1495
+      }
+    ]
+  },
+  {
+    "nombre": "Salmon Chileno Fresco Aquicola Ultra Premium Auto Mercado",
+    "nombreCorto": "Salmón fresco",
+    "categoriaId": "pescados",
+    "unidadTipo": "kilogramo",
+    "unidadDetalle": "kg",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 13405,
+    "precioMin": 13405,
+    "precioMax": 16765,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 16765
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 16765
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 16765
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 13405
+      }
+    ]
+  },
+  {
+    "nombre": "Fresa Mediana Auto Mercado Bandeja 350 G",
+    "nombreCorto": "Fresas",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "bandeja",
+    "unidadDetalle": "350 g",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 1940,
+    "precioMin": 1940,
+    "precioMax": 1940,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1940
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 1940
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 1940
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 1940
+      }
+    ]
+  },
+  {
+    "nombre": "Pan Sourdough Grain Masa Madre Auto Mercado",
+    "nombreCorto": "Pan masa madre",
+    "categoriaId": "panaderia",
+    "unidadTipo": "N/A",
+    "unidadDetalle": "Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 2100,
+    "precioMin": 2100,
+    "precioMax": 2250,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 2250
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 2100
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 2100
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 2100
+      }
+    ]
+  },
+  {
+    "nombre": "Tamarindo Auto Mercado Caja 350 G",
+    "nombreCorto": "Tamarindo",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "caja",
+    "unidadDetalle": "350 g",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 2750,
+    "precioMin": 2750,
+    "precioMax": 2750,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 2750
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 2750
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 2750
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 2750
+      }
+    ]
+  },
+  {
+    "nombre": "Platano Maduro Auto Mercado Unid",
+    "nombreCorto": "Plátano maduro",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "N/A",
+    "unidadDetalle": "Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 325,
+    "precioMin": 325,
+    "precioMax": 350,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 325
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 325
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 350
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 325
+      }
+    ]
+  },
+  {
+    "nombre": "Atun Lomo Trozos Aceite Soya Vitamina C Sardimar Lata 105 G",
+    "nombreCorto": "Atún trozos soya Sardimar 105g",
+    "categoriaId": "enlatados",
+    "unidadTipo": "lata",
+    "unidadDetalle": "105 g",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 1190,
+    "precioMin": 1190,
+    "precioMax": 1590,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1590
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 1190
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 1190
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 1190
+      }
+    ]
+  },
+  {
+    "nombre": "Leche Doble Proteina Dos Pinos",
+    "nombreCorto": "Leche doble proteína",
+    "categoriaId": "lacteos",
+    "unidadTipo": "caja",
+    "unidadDetalle": "946 mL",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 1860,
+    "precioMin": 1860,
+    "precioMax": 1860,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1860
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 1860
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 1860
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 1860
+      }
+    ]
+  },
+  {
+    "nombre": "Brocoli Auto Mercado",
+    "nombreCorto": "Brócoli",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "granel",
+    "unidadDetalle": "Kg",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 2950,
+    "precioMin": 2950,
+    "precioMax": 2950,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 2950
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 2950
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 2950
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 2950
+      }
+    ]
+  },
+  {
+    "nombre": "Cebolla Auto Mercado",
+    "nombreCorto": "Cebolla",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "granel",
+    "unidadDetalle": "Kg",
+    "cantidadDefault": 1,
+    "frecuencia": 4,
+    "ultimoPrecio": 2300,
+    "precioMin": 1990,
+    "precioMax": 2300,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1990
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 1990
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 2075
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 2300
+      }
+    ]
+  },
+  {
+    "nombre": "Arandano Importado Auto Mercado Bandeja 125 G",
+    "nombreCorto": "Arándanos",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "bandeja",
+    "unidadDetalle": "125 g",
+    "cantidadDefault": 1,
+    "frecuencia": 3,
+    "ultimoPrecio": 1785,
+    "precioMin": 1785,
+    "precioMax": 2000,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 2000
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 1785
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 1785
+      }
+    ]
+  },
+  {
+    "nombre": "Limon Mandarino Auto Mercado Unid",
+    "nombreCorto": "Limón mandarino",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "N/A",
+    "unidadDetalle": "Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 3,
+    "ultimoPrecio": 285,
+    "precioMin": 220,
+    "precioMax": 285,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 220
+      },
+      {
+        "fecha": "2026-03-02",
+        "precio": 220
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 285
+      }
+    ]
+  },
+  {
+    "nombre": "Banano Exportacion Auto Mercado",
+    "nombreCorto": "Banano",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "granel",
+    "unidadDetalle": "Kg",
+    "cantidadDefault": 1,
+    "frecuencia": 3,
+    "ultimoPrecio": 870,
+    "precioMin": 870,
+    "precioMax": 870,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 870
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 870
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 870
+      }
+    ]
+  },
+  {
+    "nombre": "Mantequilla Artesanal Barra Nikkos",
+    "nombreCorto": "Mantequilla Nikkos",
+    "categoriaId": "lacteos",
+    "unidadTipo": "unidad",
+    "unidadDetalle": "1 Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 3,
+    "ultimoPrecio": 1460,
+    "precioMin": 1460,
+    "precioMax": 1460,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 1460
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 1460
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 1460
+      }
+    ]
+  },
+  {
+    "nombre": "Zuquini Auto Mercado Unid",
+    "nombreCorto": "Zucchini",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "N/A",
+    "unidadDetalle": "Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 3,
+    "ultimoPrecio": 990,
+    "precioMin": 990,
+    "precioMax": 990,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 990
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 990
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 990
+      }
+    ]
+  },
+  {
+    "nombre": "Atun Lomo Trozos Aceite Oliva Perejil Keto Sardimar Lata 140 G",
+    "nombreCorto": "Atún oliva keto Sardimar 140g",
+    "categoriaId": "enlatados",
+    "unidadTipo": "lata",
+    "unidadDetalle": "140 g",
+    "cantidadDefault": 1,
+    "frecuencia": 3,
+    "ultimoPrecio": 1905,
+    "precioMin": 1905,
+    "precioMax": 1905,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 1905
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 1905
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 1905
+      }
+    ]
+  },
+  {
+    "nombre": "Mano Banano Datil De Exportacion Auto Mercado",
+    "nombreCorto": "Banano dátil",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "granel",
+    "unidadDetalle": "Kg",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 1550,
+    "precioMin": 1550,
+    "precioMax": 1550,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1550
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 1550
+      }
+    ]
+  },
+  {
+    "nombre": "Yogurt Griego Almendra Dos Pinos Envase 200 Ml",
+    "nombreCorto": "Yogurt griego almendra",
+    "categoriaId": "lacteos",
+    "unidadTipo": "envase",
+    "unidadDetalle": "200 mL",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 1200,
+    "precioMin": 1195,
+    "precioMax": 1200,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1195
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 1200
+      }
+    ]
+  },
+  {
+    "nombre": "Clara De Huevo Seleccion Auto Envase 940 G",
+    "nombreCorto": "Claras de huevo",
+    "categoriaId": "huevos",
+    "unidadTipo": "envase",
+    "unidadDetalle": "940 g",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 4600,
+    "precioMin": 4600,
+    "precioMax": 4600,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 4600
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 4600
+      }
+    ]
+  },
+  {
+    "nombre": "Maiz Entero Golden Del Monte Lata 248 G",
+    "nombreCorto": "Maíz Del Monte",
+    "categoriaId": "enlatados",
+    "unidadTipo": "lata",
+    "unidadDetalle": "248 g",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 875,
+    "precioMin": 875,
+    "precioMax": 875,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 875
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 875
+      }
+    ]
+  },
+  {
+    "nombre": "Helado Proteina Chocochips Dos Pinos Caja 252 G",
+    "nombreCorto": "Helado proteína Dos Pinos",
+    "categoriaId": "congelados",
+    "unidadTipo": "envase",
+    "unidadDetalle": "252 g",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 2100,
+    "precioMin": 1575,
+    "precioMax": 2100,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 1575
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 2100
+      }
+    ]
+  },
+  {
+    "nombre": "Arepa Queso La Antioquena Paquete 454 G",
+    "nombreCorto": "Arepas de queso",
+    "categoriaId": "panaderia",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "454 g",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 3260,
+    "precioMin": 3260,
+    "precioMax": 3260,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 3260
+      },
+      {
+        "fecha": "2026-03-17",
+        "precio": 3260
+      }
+    ]
+  },
+  {
+    "nombre": "Culantro Libre De Pesticidas Auto Mercado Rollo Unid",
+    "nombreCorto": "Culantro orgánico",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "rollo",
+    "unidadDetalle": "1 Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 440,
+    "precioMin": 385,
+    "precioMax": 440,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 385
+      },
+      {
+        "fecha": "2026-03-08",
+        "precio": 440
+      }
+    ]
+  },
+  {
+    "nombre": "Huevo Rojo 15 Und Libre De Jaula Auto Mercado",
+    "nombreCorto": "Huevos (15 und)",
+    "categoriaId": "huevos",
+    "unidadTipo": "kilogramo",
+    "unidadDetalle": "kg",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 2380,
+    "precioMin": 2380,
+    "precioMax": 2380,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 2380
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 2380
+      }
+    ]
+  },
+  {
+    "nombre": "Pasta Alimenticia Tornillo Tricolor Roma Paquete 250 G",
+    "nombreCorto": "Tornillos tricolor Roma",
+    "categoriaId": "pastas-granos",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "250 g",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 920,
+    "precioMin": 920,
+    "precioMax": 920,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 920
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 920
+      }
+    ]
+  },
+  {
+    "nombre": "Ensalada De Kale Auto Mercado Paquete 150 G",
+    "nombreCorto": "Ensalada de kale",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "bandeja",
+    "unidadDetalle": "150 g",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 2900,
+    "precioMin": 2900,
+    "precioMax": 2900,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 2900
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 2900
+      }
+    ]
+  },
+  {
+    "nombre": "Papaya Golden De Exportacion Auto Mercado",
+    "nombreCorto": "Papaya golden",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "kilogramo",
+    "unidadDetalle": "kg",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 1650,
+    "precioMin": 1650,
+    "precioMax": 1650,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 1650
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 1650
+      }
+    ]
+  },
+  {
+    "nombre": "Jamon Black Forest Ham Deli Shaved Land O Frost",
+    "nombreCorto": "Jamón Black Forest",
+    "categoriaId": "carnes",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "255 g",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 3035,
+    "precioMin": 3035,
+    "precioMax": 3795,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 3795
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 3035
+      }
+    ]
+  },
+  {
+    "nombre": "Ajo Polvo Seleccion Auto Paquete 28 G",
+    "nombreCorto": "Ajo en polvo",
+    "categoriaId": "condimentos",
+    "unidadTipo": "bolsa",
+    "unidadDetalle": "28 g",
+    "cantidadDefault": 1,
+    "frecuencia": 2,
+    "ultimoPrecio": 415,
+    "precioMin": 415,
+    "precioMax": 415,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 415
+      },
+      {
+        "fecha": "2026-03-22",
+        "precio": 415
+      }
+    ]
+  },
+  {
+    "nombre": "Crema Limpieza Pepino C Ponds Unidad 100 G",
+    "nombreCorto": "Crema Pond's pepino",
+    "categoriaId": "cuidado-personal",
+    "unidadTipo": "unidad",
+    "unidadDetalle": "100 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 3780,
+    "precioMin": 3780,
+    "precioMax": 3780,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 3780
+      }
+    ]
+  },
+  {
+    "nombre": "Bolsa Basura Grande Negra Agarradera Rollo Zesta Bolsa 20 Unid",
+    "nombreCorto": "Bolsas de basura Zesta",
+    "categoriaId": "limpieza",
+    "unidadTipo": "bolsa",
+    "unidadDetalle": "20 Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1375,
+    "precioMin": 1375,
+    "precioMax": 1375,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1375
+      }
+    ]
+  },
+  {
+    "nombre": "Barrita Proteina Bicentury",
+    "nombreCorto": "Barrita proteína Bicentury",
+    "categoriaId": "snacks",
+    "unidadTipo": "caja",
+    "unidadDetalle": "72 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 3100,
+    "precioMin": 3100,
+    "precioMax": 3100,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 3100
+      }
+    ]
+  },
+  {
+    "nombre": "Queso Tres Quesos Rallado Corso Lecheria",
+    "nombreCorto": "Queso rallado 3 quesos Corso",
+    "categoriaId": "lacteos",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "225 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 3320,
+    "precioMin": 3320,
+    "precioMax": 3320,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 3320
+      }
+    ]
+  },
+  {
+    "nombre": "Ensalada Espinaca Deshojada Auto Mercado Bandeja 200 G",
+    "nombreCorto": "Ensalada espinaca",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "bandeja",
+    "unidadDetalle": "200 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2700,
+    "precioMin": 2700,
+    "precioMax": 2700,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 2700
+      }
+    ]
+  },
+  {
+    "nombre": "Dip Hummus Tradicional Pharaon Paquete 220 G",
+    "nombreCorto": "Hummus tradicional Pharaon",
+    "categoriaId": "snacks",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "220 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1990,
+    "precioMin": 1990,
+    "precioMax": 1990,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1990
+      }
+    ]
+  },
+  {
+    "nombre": "Sopa Ministrone Progresso Lata 538 G",
+    "nombreCorto": "Sopa minestrone Progresso",
+    "categoriaId": "enlatados",
+    "unidadTipo": "lata",
+    "unidadDetalle": "538 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 4995,
+    "precioMin": 4995,
+    "precioMax": 4995,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 4995
+      }
+    ]
+  },
+  {
+    "nombre": "Frijol Preparado Blanco S Y W",
+    "nombreCorto": "Frijoles blancos S&W",
+    "categoriaId": "enlatados",
+    "unidadTipo": "lata",
+    "unidadDetalle": "439 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1825,
+    "precioMin": 1825,
+    "precioMax": 1825,
+    "historialPrecios": [
+      {
+        "fecha": "2026-02-24",
+        "precio": 1825
+      }
+    ]
+  },
+  {
+    "nombre": "Mostaza Amarilla Heinz Envase 396 G",
+    "nombreCorto": "Mostaza Heinz",
+    "categoriaId": "condimentos",
+    "unidadTipo": "envase",
+    "unidadDetalle": "396 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1795,
+    "precioMin": 1795,
+    "precioMax": 1795,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 1795
+      }
+    ]
+  },
+  {
+    "nombre": "Te Negro Organico 100%",
+    "nombreCorto": "Té negro orgánico",
+    "categoriaId": "bebidas",
+    "unidadTipo": "caja",
+    "unidadDetalle": "44 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 3130,
+    "precioMin": 3130,
+    "precioMax": 3130,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 3130
+      }
+    ]
+  },
+  {
+    "nombre": "Tortilla De Trigo Mediterranea Bimbo",
+    "nombreCorto": "Tortillas trigo Bimbo",
+    "categoriaId": "panaderia",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "250 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 985,
+    "precioMin": 985,
+    "precioMax": 985,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 985
+      }
+    ]
+  },
+  {
+    "nombre": "Tortillas Maiz Tostadas Sanissimo Caja 140 G",
+    "nombreCorto": "Tostadas Sanissimo",
+    "categoriaId": "panaderia",
+    "unidadTipo": "caja",
+    "unidadDetalle": "140 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1225,
+    "precioMin": 1225,
+    "precioMax": 1225,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 1225
+      }
+    ]
+  },
+  {
+    "nombre": "Arroz Integral 99% Organico Imperio Paquete 1000 G",
+    "nombreCorto": "Arroz integral orgánico Imperio 1kg",
+    "categoriaId": "pastas-granos",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "1000 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2540,
+    "precioMin": 2540,
+    "precioMax": 2540,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-02",
+        "precio": 2540
+      }
+    ]
+  },
+  {
+    "nombre": "Avena Over Night Apple Pie",
+    "nombreCorto": "Overnight oats apple pie",
+    "categoriaId": "cereales",
+    "unidadTipo": "bolsa",
+    "unidadDetalle": "325 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2180,
+    "precioMin": 2180,
+    "precioMax": 2180,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 2180
+      }
+    ]
+  },
+  {
+    "nombre": "Galleta Salada Club Extra Pozuelo Paquete 225 G",
+    "nombreCorto": "Galleta Club Extra",
+    "categoriaId": "snacks",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "225 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1665,
+    "precioMin": 1665,
+    "precioMax": 1665,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 1665
+      }
+    ]
+  },
+  {
+    "nombre": "Pan Empacado Integral Mediano Bimbo Paquete 530 G",
+    "nombreCorto": "Pan integral Bimbo",
+    "categoriaId": "panaderia",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "530 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1865,
+    "precioMin": 1865,
+    "precioMax": 1865,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 1865
+      }
+    ]
+  },
+  {
+    "nombre": "Granola Cacao Nibs",
+    "nombreCorto": "Granola cacao nibs",
+    "categoriaId": "cereales",
+    "unidadTipo": "bolsa",
+    "unidadDetalle": "300 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2775,
+    "precioMin": 2775,
+    "precioMax": 2775,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 2775
+      }
+    ]
+  },
+  {
+    "nombre": "Sal Rosada Himalaya Fina Refisal",
+    "nombreCorto": "Sal rosada Himalaya 200g",
+    "categoriaId": "condimentos",
+    "unidadTipo": "bolsa",
+    "unidadDetalle": "200 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1940,
+    "precioMin": 1940,
+    "precioMax": 1940,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 1940
+      }
+    ]
+  },
+  {
+    "nombre": "Consome Carne Maggi",
+    "nombreCorto": "Consomé Maggi",
+    "categoriaId": "condimentos",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "50 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 600,
+    "precioMin": 600,
+    "precioMax": 600,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 600
+      }
+    ]
+  },
+  {
+    "nombre": "Hongo Rebanado Richly Lata 184 G",
+    "nombreCorto": "Hongos Richly",
+    "categoriaId": "enlatados",
+    "unidadTipo": "lata",
+    "unidadDetalle": "184 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 705,
+    "precioMin": 705,
+    "precioMax": 705,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 705
+      }
+    ]
+  },
+  {
+    "nombre": "Salsa Tomate Preparada Albahaca Cirio Frasco 420 Ml",
+    "nombreCorto": "Salsa tomate albahaca Cirio",
+    "categoriaId": "condimentos",
+    "unidadTipo": "frasco",
+    "unidadDetalle": "420 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2750,
+    "precioMin": 2750,
+    "precioMax": 2750,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 2750
+      }
+    ]
+  },
+  {
+    "nombre": "Frijol Rojo Cosecha Especial Tio Pelon Bolsa 800 G",
+    "nombreCorto": "Frijoles Tío Pelón",
+    "categoriaId": "pastas-granos",
+    "unidadTipo": "bolsa",
+    "unidadDetalle": "800 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1865,
+    "precioMin": 1865,
+    "precioMax": 1865,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 1865
+      }
+    ]
+  },
+  {
+    "nombre": "Queso Semiduro Deslactosado Corso Lecheria",
+    "nombreCorto": "Queso deslactosado Corso",
+    "categoriaId": "lacteos",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "300 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2550,
+    "precioMin": 2550,
+    "precioMax": 2550,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-08",
+        "precio": 2550
+      }
+    ]
+  },
+  {
+    "nombre": "Galleta Soda Pozuelo Paquete 176 G",
+    "nombreCorto": "Galleta soda Pozuelo",
+    "categoriaId": "snacks",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "176 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 720,
+    "precioMin": 720,
+    "precioMax": 720,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 720
+      }
+    ]
+  },
+  {
+    "nombre": "Filtro Cafe Desechable Biodegradable If You Care 100 Unid",
+    "nombreCorto": "Filtros de café If You Care",
+    "categoriaId": "limpieza",
+    "unidadTipo": "caja",
+    "unidadDetalle": "100 Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 4495,
+    "precioMin": 4495,
+    "precioMax": 4495,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 4495
+      }
+    ]
+  },
+  {
+    "nombre": "Desodorante Spray Antibacterial Mujer Deopies Lata 260 Ml",
+    "nombreCorto": "Desodorante Deopies",
+    "categoriaId": "cuidado-personal",
+    "unidadTipo": "lata",
+    "unidadDetalle": "260 mL",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 4185,
+    "precioMin": 4185,
+    "precioMax": 4185,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 4185
+      }
+    ]
+  },
+  {
+    "nombre": "Crema Dental Multibeneficio Total 12 Colgate Caja 75 Ml",
+    "nombreCorto": "Pasta dental Colgate",
+    "categoriaId": "cuidado-personal",
+    "unidadTipo": "caja",
+    "unidadDetalle": "75 mL",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2625,
+    "precioMin": 2625,
+    "precioMax": 2625,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 2625
+      }
+    ]
+  },
+  {
+    "nombre": "Galleta Dulce Rellena Yogurt Arandano Tosh Pozuelo Paquete 164.8 G",
+    "nombreCorto": "Galleta Tosh yogurt/arándano",
+    "categoriaId": "snacks",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "164.8 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1865,
+    "precioMin": 1865,
+    "precioMax": 1865,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 1865
+      }
+    ]
+  },
+  {
+    "nombre": "Chocolate Oscuro 84% Cacao Stevia Gulyan",
+    "nombreCorto": "Chocolate 84% Gulyan",
+    "categoriaId": "snacks",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "100 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2595,
+    "precioMin": 2595,
+    "precioMax": 2595,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 2595
+      }
+    ]
+  },
+  {
+    "nombre": "Te Manzanilla Jengibre Miel Tosh Caja 20 G",
+    "nombreCorto": "Té manzanilla Tosh",
+    "categoriaId": "bebidas",
+    "unidadTipo": "caja",
+    "unidadDetalle": "20 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1835,
+    "precioMin": 1835,
+    "precioMax": 1835,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 1835
+      }
+    ]
+  },
+  {
+    "nombre": "Limon Mesino Auto Mercado Unid",
+    "nombreCorto": "Limón mesino",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "N/A",
+    "unidadDetalle": "Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 220,
+    "precioMin": 220,
+    "precioMax": 220,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 220
+      }
+    ]
+  },
+  {
+    "nombre": "Alimento Base Yogurt Natikkos Nikkos Paquete 330 G",
+    "nombreCorto": "Yogurt Natikkos",
+    "categoriaId": "lacteos",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "330 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1600,
+    "precioMin": 1600,
+    "precioMax": 1600,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 1600
+      }
+    ]
+  },
+  {
+    "nombre": "Dip Hummus Clasico Garbanzo Pharaon Envase 250 G",
+    "nombreCorto": "Hummus clásico Pharaon",
+    "categoriaId": "snacks",
+    "unidadTipo": "unidad",
+    "unidadDetalle": "250 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2385,
+    "precioMin": 2385,
+    "precioMax": 2385,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 2385
+      }
+    ]
+  },
+  {
+    "nombre": "Leche Cultivada Guayaba Con Probioticos Bajo En Grasa Lifeway",
+    "nombreCorto": "Kéfir guayaba Lifeway",
+    "categoriaId": "lacteos",
+    "unidadTipo": "envase",
+    "unidadDetalle": "946 mL",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 4475,
+    "precioMin": 4475,
+    "precioMax": 4475,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 4475
+      }
+    ]
+  },
+  {
+    "nombre": "Sal Rosada Himalaya Refisal Bolsa 400 G",
+    "nombreCorto": "Sal rosada Himalaya 400g",
+    "categoriaId": "condimentos",
+    "unidadTipo": "bolsa",
+    "unidadDetalle": "400 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2095,
+    "precioMin": 2095,
+    "precioMax": 2095,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 2095
+      }
+    ]
+  },
+  {
+    "nombre": "Arroz Integral 99% Imperio Paquete 900 G",
+    "nombreCorto": "Arroz integral Imperio 900g",
+    "categoriaId": "pastas-granos",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "900 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1135,
+    "precioMin": 1135,
+    "precioMax": 1135,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-17",
+        "precio": 1135
+      }
+    ]
+  },
+  {
+    "nombre": "Molida De Res 95% Carne Magra 5% Grasa Auto Mercado",
+    "nombreCorto": "Carne molida 95%",
+    "categoriaId": "carnes",
+    "unidadTipo": "kilogramo",
+    "unidadDetalle": "kg",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 7825,
+    "precioMin": 7825,
+    "precioMax": 7825,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 7825
+      }
+    ]
+  },
+  {
+    "nombre": "Pasta Agnolotti Jamon Serrano Passion Bandeja 250 G",
+    "nombreCorto": "Agnolotti jamón serrano",
+    "categoriaId": "pastas-granos",
+    "unidadTipo": "bandeja",
+    "unidadDetalle": "250 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 4930,
+    "precioMin": 4930,
+    "precioMax": 4930,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 4930
+      }
+    ]
+  },
+  {
+    "nombre": "Yogurt Griego Fresa Banano Dos Pinos Envase 200 Ml",
+    "nombreCorto": "Yogurt griego fresa/banano",
+    "categoriaId": "lacteos",
+    "unidadTipo": "envase",
+    "unidadDetalle": "200 mL",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 940,
+    "precioMin": 940,
+    "precioMax": 940,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 940
+      }
+    ]
+  },
+  {
+    "nombre": "Queso Semiduro Freir Corso Lecheria",
+    "nombreCorto": "Queso para freír Corso",
+    "categoriaId": "lacteos",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "500 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 3130,
+    "precioMin": 3130,
+    "precioMax": 3130,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 3130
+      }
+    ]
+  },
+  {
+    "nombre": "Frijol Preparado Blanco Goya Lata 439 G",
+    "nombreCorto": "Frijoles blancos Goya",
+    "categoriaId": "enlatados",
+    "unidadTipo": "lata",
+    "unidadDetalle": "439 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1590,
+    "precioMin": 1590,
+    "precioMax": 1590,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 1590
+      }
+    ]
+  },
+  {
+    "nombre": "Atun Lomo Trozos Aceite Soya Complejo B Sardimar Lata 105 G",
+    "nombreCorto": "Atún trozos complejo B Sardimar",
+    "categoriaId": "enlatados",
+    "unidadTipo": "lata",
+    "unidadDetalle": "105 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1190,
+    "precioMin": 1190,
+    "precioMax": 1190,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 1190
+      }
+    ]
+  },
+  {
+    "nombre": "Salsa Inglesa Regular Lizano Frasco 280 Ml",
+    "nombreCorto": "Salsa inglesa Lizano",
+    "categoriaId": "condimentos",
+    "unidadTipo": "envase",
+    "unidadDetalle": "280 mL",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 1440,
+    "precioMin": 1440,
+    "precioMax": 1440,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 1440
+      }
+    ]
+  },
+  {
+    "nombre": "Culantro Auto Mercado Rollo Unid",
+    "nombreCorto": "Culantro",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "rollo",
+    "unidadDetalle": "Unid",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 450,
+    "precioMin": 450,
+    "precioMax": 450,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 450
+      }
+    ]
+  },
+  {
+    "nombre": "Fresa Organica Auto Mercado Bandeja 400 G",
+    "nombreCorto": "Fresa orgánica",
+    "categoriaId": "frutas-verduras",
+    "unidadTipo": "bandeja",
+    "unidadDetalle": "400 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2750,
+    "precioMin": 2750,
+    "precioMax": 2750,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 2750
+      }
+    ]
+  },
+  {
+    "nombre": "Cafe Molido Gourmet Tueste Claro Alma Paquete 340 G",
+    "nombreCorto": "Café Alma tueste claro",
+    "categoriaId": "bebidas",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "340 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 4210,
+    "precioMin": 4210,
+    "precioMax": 4210,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 4210
+      }
+    ]
+  },
+  {
+    "nombre": "Tortilla Maiz Maiz Con Sal Popcorners",
+    "nombreCorto": "Popcorners maíz",
+    "categoriaId": "snacks",
+    "unidadTipo": "paquete",
+    "unidadDetalle": "141.7 g",
+    "cantidadDefault": 1,
+    "frecuencia": 1,
+    "ultimoPrecio": 2690,
+    "precioMin": 2690,
+    "precioMax": 2690,
+    "historialPrecios": [
+      {
+        "fecha": "2026-03-22",
+        "precio": 2690
+      }
+    ]
+  }
+]
