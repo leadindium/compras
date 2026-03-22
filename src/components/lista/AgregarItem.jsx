@@ -8,17 +8,21 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
   const [mostrarNuevo, setMostrarNuevo] = useState(false)
   const [editandoProducto, setEditandoProducto] = useState(null)
   const [editForm, setEditForm] = useState({})
-  const [viewportHeight, setViewportHeight] = useState(window.visualViewport?.height || window.innerHeight)
+  const [keyboardOpen, setKeyboardOpen] = useState(false)
   const searchRef = useRef(null)
 
   const cats = categorias?.length > 0 ? categorias : CATEGORIAS_DEFAULT
   const catsSorted = [...cats].sort((a, b) => (a.ordenDefault || 99) - (b.ordenDefault || 99))
 
-  // Track visual viewport for iOS keyboard
+  // Detect keyboard open/close on iOS
   useEffect(() => {
     const vv = window.visualViewport
     if (!vv) return
-    const onResize = () => setViewportHeight(vv.height)
+    const initialHeight = window.innerHeight
+    const onResize = () => {
+      // If viewport shrinks significantly, keyboard is open
+      setKeyboardOpen(vv.height < initialHeight * 0.75)
+    }
     vv.addEventListener('resize', onResize)
     return () => vv.removeEventListener('resize', onResize)
   }, [])
@@ -129,7 +133,7 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
       <div className="fixed inset-0 z-[70] bg-black/30 backdrop-blur-sheet" onClick={() => setEditandoProducto(null)}>
         <div
           className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl p-4 pb-safe"
-          style={{ maxHeight: `${viewportHeight * 0.7}px` }}
+          style={{ maxHeight: '85vh' }}
           onClick={e => e.stopPropagation()}
         >
           <div className="flex justify-center mb-3">
@@ -191,7 +195,7 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
       <div className="fixed inset-0 z-[70] bg-black/30 backdrop-blur-sheet" onClick={() => setMostrarNuevo(false)}>
         <div
           className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl overflow-y-auto"
-          style={{ maxHeight: `${viewportHeight * 0.85}px` }}
+          style={{ maxHeight: '85vh' }}
           onClick={e => e.stopPropagation()}
         >
           <NuevoProducto
@@ -209,8 +213,10 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
   return (
     <div className="fixed inset-0 z-[60] bg-black/30 backdrop-blur-sheet" onClick={onClose}>
       <div
-        className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl flex flex-col"
-        style={{ maxHeight: `${viewportHeight * 0.9}px` }}
+        className={`absolute left-0 right-0 bg-white flex flex-col ${
+          keyboardOpen ? 'inset-0' : 'bottom-0 rounded-t-2xl'
+        }`}
+        style={keyboardOpen ? undefined : { maxHeight: '90vh' }}
         onClick={e => e.stopPropagation()}
       >
         {/* Handle + header */}
