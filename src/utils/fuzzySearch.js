@@ -2,8 +2,8 @@ import Fuse from 'fuse.js'
 
 const defaultOptions = {
   keys: ['nombreCorto', 'nombre'],
-  threshold: 0.4,
-  distance: 100,
+  threshold: 0.25,
+  distance: 50,
   minMatchCharLength: 2,
   shouldSort: true,
   sortFn: (a, b) => {

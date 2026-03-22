@@ -126,7 +126,7 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
   // Edit product inline sheet
   if (editandoProducto) {
     return (
-      <div className="fixed inset-0 z-[60] bg-black/30 backdrop-blur-sheet" onClick={() => setEditandoProducto(null)}>
+      <div className="fixed inset-0 z-[70] bg-black/30 backdrop-blur-sheet" onClick={() => setEditandoProducto(null)}>
         <div
           className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl p-4 pb-safe"
           style={{ maxHeight: `${viewportHeight * 0.7}px` }}
@@ -188,7 +188,7 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
 
   if (mostrarNuevo) {
     return (
-      <div className="fixed inset-0 z-50 bg-black/30 backdrop-blur-sheet" onClick={() => setMostrarNuevo(false)}>
+      <div className="fixed inset-0 z-[70] bg-black/30 backdrop-blur-sheet" onClick={() => setMostrarNuevo(false)}>
         <div
           className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl overflow-y-auto"
           style={{ maxHeight: `${viewportHeight * 0.85}px` }}
@@ -207,7 +207,7 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
   }
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/30 backdrop-blur-sheet" onClick={onClose}>
+    <div className="fixed inset-0 z-[60] bg-black/30 backdrop-blur-sheet" onClick={onClose}>
       <div
         className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl flex flex-col"
         style={{ maxHeight: `${viewportHeight * 0.9}px` }}
