@@ -4,13 +4,15 @@ import { useCollection } from '../../hooks/useFirestore'
 import { getCategoria, CATEGORIAS_DEFAULT } from '../../utils/categorizar'
 import { formatColones } from '../../utils/formatColones'
 import Header from '../layout/Header'
+import NuevoProducto from '../lista/NuevoProducto'
 
 export default function Catalogo({ hogarId }) {
-  const { productos, actualizarProducto, desactivarProducto } = useCatalogo(hogarId)
+  const { productos, actualizarProducto, desactivarProducto, agregarProducto } = useCatalogo(hogarId)
   const { data: categorias } = useCollection(hogarId ? `hogares/${hogarId}/categorias` : null)
   const [filtro, setFiltro] = useState('')
   const [editando, setEditando] = useState(null)
   const [formData, setFormData] = useState({})
+  const [mostrarNuevo, setMostrarNuevo] = useState(false)
 
   const activos = productos.filter(p => p.activo !== false)
   const filtrados = filtro
@@ -52,6 +54,19 @@ export default function Catalogo({ hogarId }) {
     if (!editando) return
     await desactivarProducto(editando)
     setEditando(null)
+  }
+
+  const handleCrearProducto = async (producto) => {
+    await agregarProducto(producto)
+    setMostrarNuevo(false)
+  }
+
+  const verificarDuplicado = (nombre) => {
+    const lower = nombre.toLowerCase()
+    return activos.find(p =>
+      p.nombreCorto?.toLowerCase().includes(lower) ||
+      p.nombre?.toLowerCase().includes(lower)
+    ) || null
   }
 
   return (
@@ -109,19 +124,47 @@ export default function Catalogo({ hogarId }) {
           })}
       </div>
 
+      {/* FAB agregar producto */}
+      <button
+        onClick={() => setMostrarNuevo(true)}
+        className="fixed bottom-24 right-4 z-40 w-14 h-14 bg-emerald-500 text-white rounded-full shadow-lg flex items-center justify-center text-3xl font-light active:bg-emerald-600 active:scale-95 transition-all"
+      >
+        +
+      </button>
+
+      {/* Bottom sheet nuevo producto */}
+      {mostrarNuevo && (
+        <div className="fixed inset-0 z-50 bg-black/30 backdrop-blur-sheet" onClick={() => setMostrarNuevo(false)}>
+          <div
+            className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl pb-safe max-h-[85vh] overflow-y-auto"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="flex justify-center pt-3 mb-1 sticky top-0">
+              <div className="w-10 h-1 bg-gray-300 rounded-full" />
+            </div>
+            <NuevoProducto
+              categorias={cats}
+              onCrear={handleCrearProducto}
+              onCancel={() => setMostrarNuevo(false)}
+              verificarDuplicado={verificarDuplicado}
+            />
+          </div>
+        </div>
+      )}
+
       {/* Bottom sheet de edición */}
       {editando && (
         <div className="fixed inset-0 z-50 bg-black/30 backdrop-blur-sheet" onClick={() => setEditando(null)}>
           <div
-            className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl p-4 pb-safe"
+            className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl p-4 pb-safe max-h-[85vh] flex flex-col"
             onClick={e => e.stopPropagation()}
           >
-            <div className="flex justify-center mb-3">
+            <div className="flex justify-center mb-3 flex-shrink-0">
               <div className="w-10 h-1 bg-gray-300 rounded-full" />
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Editar producto</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-4 flex-shrink-0">Editar producto</h3>
 
-            <div className="space-y-4">
+            <div className="space-y-4 overflow-y-auto flex-1 min-h-0">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Nombre corto</label>
                 <input
@@ -144,7 +187,7 @@ export default function Catalogo({ hogarId }) {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Categoría</label>
-                <div className="grid grid-cols-4 gap-2 max-h-48 overflow-y-auto">
+                <div className="grid grid-cols-4 gap-2">
                   {cats.sort((a, b) => (a.ordenDefault || 99) - (b.ordenDefault || 99)).map(cat => (
                     <button
                       key={cat.id}
@@ -161,21 +204,21 @@ export default function Catalogo({ hogarId }) {
                   ))}
                 </div>
               </div>
+            </div>
 
-              <div className="flex gap-2">
-                <button
-                  onClick={handleDesactivar}
-                  className="px-4 py-3 bg-red-50 text-red-600 rounded-xl font-medium text-sm active:bg-red-100 flex-shrink-0"
-                >
-                  Desactivar
-                </button>
-                <button
-                  onClick={handleSave}
-                  className="flex-1 py-3 bg-emerald-500 text-white rounded-xl font-semibold active:bg-emerald-600"
-                >
-                  Guardar
-                </button>
-              </div>
+            <div className="flex gap-2 pt-4 flex-shrink-0">
+              <button
+                onClick={handleDesactivar}
+                className="px-4 py-3 bg-red-50 text-red-600 rounded-xl font-medium text-sm active:bg-red-100 flex-shrink-0"
+              >
+                Desactivar
+              </button>
+              <button
+                onClick={handleSave}
+                className="flex-1 py-3 bg-emerald-500 text-white rounded-xl font-semibold active:bg-emerald-600"
+              >
+                Guardar
+              </button>
             </div>
           </div>
         </div>
