@@ -4,13 +4,15 @@ import { useCollection } from '../../hooks/useFirestore'
 import { getCategoria, CATEGORIAS_DEFAULT } from '../../utils/categorizar'
 import { formatColones } from '../../utils/formatColones'
 import Header from '../layout/Header'
+import NuevoProducto from '../lista/NuevoProducto'
 
 export default function Catalogo({ hogarId }) {
-  const { productos, actualizarProducto, desactivarProducto } = useCatalogo(hogarId)
+  const { productos, actualizarProducto, desactivarProducto, agregarProducto } = useCatalogo(hogarId)
   const { data: categorias } = useCollection(hogarId ? `hogares/${hogarId}/categorias` : null)
   const [filtro, setFiltro] = useState('')
   const [editando, setEditando] = useState(null)
   const [formData, setFormData] = useState({})
+  const [mostrarNuevo, setMostrarNuevo] = useState(false)
 
   const activos = productos.filter(p => p.activo !== false)
   const filtrados = filtro
@@ -52,6 +54,19 @@ export default function Catalogo({ hogarId }) {
     if (!editando) return
     await desactivarProducto(editando)
     setEditando(null)
+  }
+
+  const handleCrearProducto = async (producto) => {
+    await agregarProducto(producto)
+    setMostrarNuevo(false)
+  }
+
+  const verificarDuplicado = (nombre) => {
+    const lower = nombre.toLowerCase()
+    return activos.find(p =>
+      p.nombreCorto?.toLowerCase().includes(lower) ||
+      p.nombre?.toLowerCase().includes(lower)
+    ) || null
   }
 
   return (
@@ -108,6 +123,34 @@ export default function Catalogo({ hogarId }) {
             )
           })}
       </div>
+
+      {/* FAB agregar producto */}
+      <button
+        onClick={() => setMostrarNuevo(true)}
+        className="fixed bottom-24 right-4 z-40 w-14 h-14 bg-emerald-500 text-white rounded-full shadow-lg flex items-center justify-center text-3xl font-light active:bg-emerald-600 active:scale-95 transition-all"
+      >
+        +
+      </button>
+
+      {/* Bottom sheet nuevo producto */}
+      {mostrarNuevo && (
+        <div className="fixed inset-0 z-50 bg-black/30 backdrop-blur-sheet" onClick={() => setMostrarNuevo(false)}>
+          <div
+            className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl pb-safe max-h-[85vh] overflow-y-auto"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="flex justify-center pt-3 mb-1 sticky top-0">
+              <div className="w-10 h-1 bg-gray-300 rounded-full" />
+            </div>
+            <NuevoProducto
+              categorias={cats}
+              onCrear={handleCrearProducto}
+              onCancel={() => setMostrarNuevo(false)}
+              verificarDuplicado={verificarDuplicado}
+            />
+          </div>
+        </div>
+      )}
 
       {/* Bottom sheet de edición */}
       {editando && (
