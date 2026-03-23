@@ -132,15 +132,15 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
     return (
       <div className="fixed inset-0 z-[70] bg-black/30 backdrop-blur-sheet" onClick={() => setEditandoProducto(null)}>
         <div
-          className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl p-4 pb-safe"
+          className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl p-4 pb-safe flex flex-col"
           style={{ maxHeight: '85vh' }}
           onClick={e => e.stopPropagation()}
         >
-          <div className="flex justify-center mb-3">
+          <div className="flex justify-center mb-3 flex-shrink-0">
             <div className="w-10 h-1 bg-gray-300 rounded-full" />
           </div>
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">Editar producto</h3>
-          <div className="space-y-3 overflow-y-auto">
+          <h3 className="text-lg font-semibold text-gray-900 mb-4 flex-shrink-0">Editar producto</h3>
+          <div className="space-y-3 overflow-y-auto flex-1 min-h-0">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Nombre corto</label>
               <input
@@ -161,7 +161,7 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Categoría</label>
-              <div className="grid grid-cols-4 gap-2 max-h-36 overflow-y-auto">
+              <div className="grid grid-cols-4 gap-2">
                 {catsSorted.map(cat => (
                   <button
                     key={cat.id}
@@ -178,13 +178,13 @@ export default function AgregarItem({ catalogo, categorias, onAgregar, onClose }
                 ))}
               </div>
             </div>
-            <button
-              onClick={saveEditProducto}
-              className="w-full py-3 bg-emerald-500 text-white rounded-xl font-semibold active:bg-emerald-600"
-            >
-              Guardar
-            </button>
           </div>
+          <button
+            onClick={saveEditProducto}
+            className="w-full py-3 bg-emerald-500 text-white rounded-xl font-semibold active:bg-emerald-600 mt-4 flex-shrink-0"
+          >
+            Guardar
+          </button>
         </div>
       </div>
     )
